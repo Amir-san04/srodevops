@@ -43,7 +43,6 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           repository: ${{ secrets.DOCKERHUB_USERNAME }}/redis-webapp
           short-description: FastAPI + Redis Web Application
-          readme-filepath: ./README.md
 
   test:
     runs-on: ubuntu-latest
